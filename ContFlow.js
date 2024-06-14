@@ -53,4 +53,38 @@ switch( weeklyPlants) {
             console.log('Please, no planting beyond end of week three. Just monitor and maintain');
 }
 
+//===============Part2=====================================================
 
+//100 / 20 = 5 more starter gardens
+console.log(area); // 78.53750000000001
+//regular area for 5 more starter gardens
+let newStart5 = area * 5;
+console.log(newStart5); // 392.6870000000006
+//wk1 = 200
+//wk2 = 400
+//wk3 = 800
+//wk4 = 1600
+//wk5 = 3200
+//wk6 = 6400
+//wk7 = 12800
+//wk8 = 25600
+//wk9 = 51200
+//wk10 = 102400
+
+let numOfNewGard = 102400 / maxNumberOfPlant;
+console.log(numOfNewGard); //1043.068597803597
+let totAreaNeeded = area * numOfNewGard;
+console.log(totAreaNeeded); //81920 m^2
+
+// pi.r^2 = 81920
+//r = square root of (81920/pi)
+
+
+//===================Part 3============
+try {
+    if(100 > 20) throw "Beyond capacity";
+}
+
+catch(err){
+    
+}
