@@ -37,20 +37,20 @@ let numOfPlantsWk3 = numOfPlantsWk2 * scaler;
 console.log(numOfPlantsWk3); // 160 plants
 
 
-let weeklyPlants = 0;
+let numWeekFrmPlantingDay = 0;
 
-switch( weeklyPlants) {
-    case 40:
-        console.log('40' + " " + 'plant, keep planting');
+switch(numWeekFrmPlantingDay) {
+    case 1:
+        console.log('40' + " " + 'plants, room for more');
         break;
-    case 80:
+    case 2:
         console.log('80' + " " + 'plants, keep an eye and monitor because area is 18 plants shy of max capacity.')  ;
         break;
-    case 160:  
+    case 3:  
         console.log('160' + " " + 'plants. Above planting capacity. prune, trim, uproot, monitor and maintain.');
         break;
         default:
-            console.log('Please, no planting beyond end of week three. Just monitor and maintain');
+            console.log('Please, no planting beyond end of week three. Just monitor and maintain.');
 }
 
 //===============Part2=====================================================
